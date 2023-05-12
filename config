@@ -1,0 +1,10 @@
+#! /bin/bash
+
+browser[0]="firefox"
+browser[1]="chrome"
+browser[2]="opera"
+browser[3]="w3m"
+browser[4]="links"
+browser[5]="other"
+
+
