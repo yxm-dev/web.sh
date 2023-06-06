@@ -1,7 +1,7 @@
 #! /bin/bash 
 
-installdir=~/.config/web.sh
-source $installdir/data
+install_dir=~/.config/web.sh
+source $install_dir/data
 
     function web(){
         while [[ "$1" == "-s" ]] || [[ "$1" == "--search" ]]; do
