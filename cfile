@@ -1,0 +1,36 @@
+#! /bin/bash
+
+# BASIC DATA
+## browsers array
+    web_browser[0]="firefox"
+    web_browser[1]="chrome"
+    web_browser[2]="opera"
+    web_browser[3]="w3m"
+    web_browser[4]="links"
+
+    web_browser_CLI[firefox]="firefox"
+    web_browser_CLI[chrome]="google-chrome"
+    web_browser_CLI[opera]="opera"
+    web_browser_CLI[w3m]="w3m"
+    web_browser_CLI[links]="links"
+
+    web_browser_is_term_based[firefox]="no"
+    web_browser_is_term_based[chrome]="no"
+    web_browser_is_term_based[opera]="no"
+    web_browser_is_term_based[w3m]="yes"
+    web_browser_is_term_based[links]="yes"
+    
+## search engines array
+    search_engine[0]="duckduckgo"
+    search_engine[1]="google"
+    search_engine[2]="bing"
+
+## search engine base url
+    search_engine_base[duckduckgo]="https://duckduckgo.com"
+    search_engine_base[google]="https://google.com/search"
+    search_engine_base[bing]="https://bing.com/search"
+
+# Config Data
+    main_web_browser="firefox"
+    main_search_engine="google"
+
