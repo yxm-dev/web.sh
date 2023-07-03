@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-#! /bin/bash
-
-install_dir=~/.config/web.sh
-=======
 ! /bin/bash
 
 WEB_install_dir=~/.config/web.sh
->>>>>>> a252fea (...)
 
 # declaring
     declare -a web_browser
@@ -16,11 +10,7 @@ WEB_install_dir=~/.config/web.sh
     declare -A search_engine_base
     declare -a search_engine_function
 # including cfile
-<<<<<<< HEAD
-    source $install_dir/cfile
-=======
     source $WEB_install_dir/cfile
->>>>>>> a252fea (...)
 
 # WEB FUNCTION
     function web(){
